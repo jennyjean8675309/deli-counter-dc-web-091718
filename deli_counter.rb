@@ -9,4 +9,5 @@ def line(deli_line)
       line_order.push("#{index + 1}. #{name}")
     end
     puts "The line is currently: #{line_order.to_s}."
+  end
 end

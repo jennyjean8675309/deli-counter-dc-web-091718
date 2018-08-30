@@ -14,5 +14,5 @@ end
 
 def take_a_number(deli_line, name)
   deli_line.push(name)
-  puts "Welcome #{name}. You are number #{deli_line.size} in line."
+  puts "Welcome, #{name}. You are number #{deli_line.size} in line."
 end

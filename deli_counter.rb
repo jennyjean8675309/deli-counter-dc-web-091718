@@ -16,3 +16,8 @@ def take_a_number(deli_line, name)
   deli_line.push(name)
   puts "Welcome, #{name}. You are number #{deli_line.size} in line."
 end
+
+def now_serving(deli_line)
+  if deli_line.size == 0
+    puts "The "
+end

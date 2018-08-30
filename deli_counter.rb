@@ -11,3 +11,7 @@ def line(deli_line)
     puts "The line is currently: #{line_order.join(" ")}"
   end
 end
+
+def take_a_number(deli_line, name)
+  
+end

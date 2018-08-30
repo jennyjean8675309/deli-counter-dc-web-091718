@@ -19,5 +19,6 @@ end
 
 def now_serving(deli_line)
   if deli_line.size == 0
-    puts "The "
+    puts "There is nobody waiting to be served!"
+  else 
 end
